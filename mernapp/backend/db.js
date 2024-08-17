@@ -19,5 +19,5 @@ const mongoDB = async () => {
     process.exit(1); 
   }
 };
-
+ 
 module.exports = mongoDB;
