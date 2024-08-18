@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Set up routes
 app.use('/api', require("./Routes/CreateUser"));
-
+app.use('/api', require("./Routes/DisplayData"));
 // Root route
 app.get('/', (req, res) => {
   res.send('Hello World!');
